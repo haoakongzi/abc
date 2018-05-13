@@ -1,0 +1,2317 @@
+单选题 
+ 
+1.  关于WORKNET,下列描述错误的是    
+  
+应用系统必须是通过UM认证才能使用WORKNET
+ 
+WORKNET-ENGINE是核心引擎，负责任务的处理和流转
+ 
+WORKNET目前是集中部署，各个系列公用服务(*)
+ 
+WORKNET提供公共的派工页面供业务系统重用
+ 
+2.  关于规则引擎的描述错误的是？   
+ 
+  
+ 
+规则引擎可以提供web界面来管理规则
+ 
+规则引擎可以进行规则的生命周期管理
+ 
+规则引擎目前底层使用的是IBM JRUlES产品
+ 
+规则引擎负责业务规则需要的参数的校验(*)
+	
+ 	
+ 
+3.  下面那项不是UM中定义的概念?    
+ 
+业务系统
+ 
+安全角色
+ 
+规则(*)
+ 
+权限组
+	
+ 
+4.  下列哪一个选项按照顺序包括了OSI模型的七个层次：（ ）    
+ 
+物理层 数据链路层 网络层 传输层 会话层 表示层 应用层(*)
+ 
+物理层 数据链路层 会话层 网络层 传输层 表示层 应用层
+ 
+物理层 数据链路层 传输层 网络层 会话层 表示层 应用层
+ 
+网络层 传输层 物理层 数据链路层 会话层 表示层 应用层
+ 	
+ 
+5.  下列关于FTP下载的说法错误的是：（   ）    
+ 
+FTP采用C/S工作方式，由用户提出请求，FTP服务器做出回应。
+ 
+使用IE浏览器进行FTP下载前的身份验证时，可以使用匿名登陆的方式。
+ 
+FTP只适用于文件的上传和下载。(*)
+ 
+FTP的客户机和服务器直接采用TCP相连，保证了数据传输的可靠性和独占性。
+
+ 
+6.  下述论述中不正确的是（ ）    
+ 
+IPV6具有高效IP包头
+ 
+IPV6采用主机地址自动配置
+ 
+IPV6地址采用64位(*)
+ 
+IPV6增强了安全性
+ 	
+ 
+7.  关于HTTP与HTTPS以下说法错误的是（    ）    
+ 
+http和https使用的都是80端口(*)
+ 
+http中的所有信息都是明文传输的
+ 
+http的连接很简单,是无状态的
+ 
+HTTPS协议是由SSL+HTTP协议构建的可进行加密传输、身份认证的网络协议 要比http协议安全
+
+ 
+8.  网络操作系统和分布式操作系统的主要区别是（）    
+  
+ 
+是否连接多台计算机
+ 
+网上资源能否共享
+ 
+计算机之间能否通信
+ 
+各台计算机有没有主次之分(*)
+ 	
+ 
+9.  要想在你的视图上成功的执行查询需要做什么？    
+ 
+基础表中必须有数据
+ 
+在视图中需要有select权限(*)
+ 
+基础表必须在同一个 用户模式中
+ 
+只能在基础表中有select权限
+ 	
+ 
+10.  下面关于数据库系统基于日志的恢复的叙述中，哪一个是正确的    
+ 
+利用更新日志记录中的改前值可以进行UNDO，利用更新日志记录中的改前值可以进行REDO
+ 
+利用更新日志记录中的改前值可以进行UNDO，利用更新日志记录中的改后值可以进行REDO(*)
+ 
+利用更新日志记录中的改后值可以进行UNDO，利用更新日志记录中的改后值可以进行REDO
+ 
+利用更新日志记录中的改后值可以进行UNDO，利用更新日志记录中的改前值可以进行REDO
+	
+ 
+ 
+11.  同一个关系模型的任两个元组值    
+ 
+不能全同
+ 
+可全同(*)
+ 
+必须全同
+ 
+以上都不是
+ 	
+ 
+12.  在数据库中，产生数据不一致的根本原因是    
+ 
+数据存储量太大
+ 
+没有严格保护数据
+ 
+数据冗余
+ 
+未对数据进行完整性控制(*)
+ 	
+ 
+13.  评估下面的一组SQL语句:
+CREATE TABLE dept
+(deptno NUMBER(2),
+dname VARCNAR2(14),
+1oc VARCNAR2 (13));
+ROLLBACK;
+DESCRIBE DEPT
+下面关于该组语句的哪个描述是正确的？    
+  
+DESCRIBE DEPT语句将显示DEPT表的结构描述内容(*)
+ 
+ROLLBACK语句将释放DEPT占用的存储空间
+ 
+DESCRIBE DEPT语句将返回一个错误ORA-04043: object DEPT does not exist.
+ 
+DESCRIBE DEPT语句将只有在ROLLBACK之前引入一个COMMIT语句时，才会显示DEPT表的结构描述内容
+ 	
+ 
+14.  Oracle中VARCHAR2类型的最大长度是：    
+ 
+1000
+ 
+2000
+ 
+4000(*)
+ 
+3000
+	
+ 
+15. 在视图上不能完成的操作是    
+ 
+更新视图
+ 
+查询
+ 
+在视图上定义新的基本表(*)
+ 
+在视图上定义新视图
+	
+ 
+16.  SunTone的精化阶段主要工作是()    
+
+定义项目的范围
+ 
+架构设计，通过架构原型减轻风险,充实完善需求(*)
+ 
+开发系统功能
+ 
+产品移交发布
+	
+ 	
+ 
+17.  在UML提供的图中，（ ）用于按时间顺序描述对象间的交互。    
+ 
+网络图
+ 
+协作图(*)
+ 
+序列图
+ 
+状态图
+	
+ 
+18.  业务词汇表在（）阶段产出    
+ 
+初始阶段(*)
+ 
+精化阶段
+ 
+构建阶段
+ 
+产品化阶段
+       	
+  
+19.  项目中的技术风险是通常是通过（）方法来缓解的    
+ 
+技术文档
+ 
+架构原型验证(*)
+ 
+代码复审
+ 
+单元测试
+  
+20.  下面有关系统并发访问数估算数据那个最有效：    
+ 
+平均每秒用户请求数50
+ 
+同时在线用户数100
+ 
+高峰时段平均每秒请求数80(*)
+ 
+高峰时段日处理业务量100000
+  
+ 
+21.  黑盒测试也称为功能测试。黑盒测试不能发现    
+ 
+终止性错误
+ 
+界面是否有错误(*)
+ 
+是否存在冗余代码
+ 
+输入是否正确接收
+  	
+ 
+22.  Math.round(11.5)和Math.round(-11.5)的结果分别是    
+ 
+12和-11(*)
+ 
+12和-12
+ 
+11和-11
+ 
+11和-12
+
+ 
+23.  "|DF|A3".split("|").length的结果是()    
+ 
+3
+ 
+6
+ 
+7(*)
+ 
+5
+ 
+4
+ 	
+ 
+24.  下列关于描述XML和HTML的差异不正确的是   
+  
+XML扩展性比HTML强
+ 
+XML的语法比HTML严格
+ 
+解析XML的性能优于HTML(*)
+ 
+XML与HTML互补
+   	
+ 	
+ 
+25.  下列代码哪几行会出错: 
+1) public void modify() { 
+2) int I, j, k; 
+3) I = 100; 
+4) while ( I > 0 ) { 
+5) j = I * 2; 
+6) System.out.println (" The value of j is " + j ); 
+7) k = k + 1; 
+8) I--; 
+9) } 
+10) }      
+ 
+line 4
+ 
+line 8
+ 
+line 7(*)
+ 
+line 6
+       	
+ 
+26.  以下的变量定义中，合法的语句是：    
+   
+float 1_variable=3.4;
+ 
+int abc=21;(*)
+ 
+short do=15;
+ 
+dauble a=1+4e2.5;
+  	
+ 
+27.  EJB不支持以下哪种服务。    
+ 
+Servlet(*)
+ 
+JTA
+ 
+JMS
+ 
+JDBC
+  	
+ 
+28.  以下哪行代码会进行对象垃圾回收
+1.public class MyClass{   
+2.    public StringBuffer aMethod(){   
+3.        StringBuffer sf = new 4.StringBuffer("Hello");   
+5.        StringBuffer[] sf_arr = new    StringBuffer[1];   
+6.        sf_arr[0] = sf;   
+7.        sf = null;   
+8.        sf_arr[0] = null;   
+9.        return sf;   
+    }   
+}    
+ 
+第3行
+ 
+第5行
+ 
+第8行
+ 
+第7行(*)
+   	
+ 
+29. 下面的哪种数据类型可以保存-32768~32767之间的数字    
+ 
+long
+ 
+short
+ 
+int(*)
+ 
+byte
+  	
+ 
+30.  下列关于注释语句的描述中，正确的一项是    
+ 
+以//开始的是多行注释语句
+ 
+以/*开始，*/结束的是单行注释
+ 
+以/**开始，*/结束的是单行注释语句
+ 
+以/**开始，*/结束的是可以用于生成帮助文档的注释语句(*)
+       	
+ 
+31.  在Java中，关于final关键字的说法正确的是    
+
+  
+如果修饰变量，则一旦赋了值，就等同一个常量
+ 
+如果修饰方法，则该方法所在的类不能被继承(*)
+ 
+如果修饰方法，则该方法能在子类中被覆盖
+ 
+如果修饰类，则该类只能被一个子类继承
+  	
+ 
+32.  正则表达式 ([0-9]{3})-([a-z]{3})-([a-z]*?ab) 与下列哪个字符串相匹配    
+ 
+123-abc{3}-cab
+ 
+123{3}-abc-cab
+ 
+123-abc-ccab(*)
+ 
+123-abc-cb
+ 
+33.  如下代码在Servlet1.java中.
+import javax.servlet.*;
+import javax.servlet.http.*;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class Servlet extends HttpServlet{
+
+   public void init() throws ServletException{}
+   public void service(HttpServletRequest request,
+
+HttpServletResponse response)throws ServletException,
+
+IOException{
+
+PrintWriter out=response.getWriter();
+Out.println(“hello!”);
+
+}
+
+}
+
+假如编译Servlet要具备的环境都已经建立好,现在用完全正确的命令编译该文件,对于以下陈述正确的是    
+ 
+编译该文件时会提示缺少doGet()或者doPost方法,编译不能够成功通过
+ 
+编译后,把Servlet1.class放在正确的位置,在浏览器中查看该Servlet1,却看到产生运行时错误的出错信息.
+ 
+编译后,把Servlet1.class放在正确的位置,在浏览器中查看该Servlet1,却看不到任何输出文字
+ 
+编译后,把Servlet1.class放在正确的位置,在浏览器中查看该Servlet1,会看到输出文字:”hello!”(*)
+       	
+ 	
+ 
+34.  下列关于栈的叙述正确的是    
+ 
+栈是非线性结构
+ 
+栈是一种树状结构
+ 
+栈具有后进先出的特征(*)
+ 
+栈具有先进先出的特征
+       	
+ 	
+ 
+35.  有关线程的哪些叙述是对的。    
+ 
+一旦一个线程被创建，它就立即开始运行。
+ 
+一个线程可能因为不同的原因停止（cease）并进入就绪状态。(*)
+ 
+当一个线程因为抢先机制而停止运行，它被放在可运行队列的前面。
+ 
+使用start()方法可以使一个线程成为可运行的，但是它不一定立即开始运行。
+ 	
+ 
+36.  关于finally块中的代码描述正确的是：    
+ 
+finally块可以不写(*)
+ 
+如果try块后没有catch块时，finally块中的代码才会执行
+ 
+异常没有发生时才被执行
+ 
+异常发生时才被执行
+       	
+ 	
+ 
+37. 在面向对象数据模型中，子类不但可以从其超类中继承所有的属性和方法，而且还可以定义自己的属性和方法，这有利于实现    
+ 
+可移植性
+ 
+可靠性
+ 
+安全性
+ 
+可扩充性(*)
+  	
+ 
+38.  用于将java源代码文件编译成字节码的编译器是    
+ 
+javac(*)
+ 
+java
+ 
+javah
+ 
+jdb
+ 	
+ 
+39.  在Java中，负责对字节代码解释执行的是    
+ 
+垃圾回收器
+ 
+应用服务器
+ 
+编译器
+ 
+虚拟机(*)
+ 	
+ 
+40.  若某线性表最常用得操作是存取任一指定序号的元素和在最后进行插入和删除运算，则利用（ ）存储方式最节省时间    
+ 
+顺序表(*)
+ 
+双链表
+ 
+单循环链表
+ 
+带头结点的双循环链表
+ 
+ 
+41.  一个栈的输入序列为1 2 3 4 5，则下列序列中不可能是栈得输出序列的是（ ）    
+ 
+2 3 4 1 5
+ 
+1 5 4 3 2
+ 
+5 4 1 3 2(*)
+ 
+2 3 1 4 5
+ 	
+ 
+42.  下列（）不属于HTTP协议中GET方法和POST方法的区别内容。    
+ 
+提交数据时，POST比GET安全。
+ 
+提交数据时，POST没有数据量的限制。
+ 
+POST方法请求的页面可以使用邮件发送。(*)
+ 
+GET方法请求的页面可以作为书签。
+ 	
+ 
+43.  泛型(Generic) 是JDK哪个版本被引入的：    
+
+1.3
+ 
+1
+ 
+1.5(*)
+ 
+1.4
+
+44.  EJB组件的包文件的扩展名是：    
+
+.jar(*)
+ 
+.war
+ 
+.ear
+ 
+.rar
+
+ 
+45.  下面那种服务不是JNDI应用范围。    
+
+Servlet(*)
+ 
+JMS
+ 
+JDBC
+ 
+EJB
+
+46.  关于垃圾收集的哪些叙述是正确的    
+
+程序开发者必须自己创建一个线程进行内存释放的工作
+ 
+垃圾收集允许程序开发者明确指定并立即释放该内存
+ 
+垃圾收集能够在期望的时间释放被java对象使用的内存
+ 
+垃圾收集将检查并释放不再使用的内存(*)
+
+
+47.  下列哪个组件能在一个EAR文件中被声明。    
+
+JDBC DataSource对象
+ 
+EJB类(*)
+ 
+JMX Mbeans
+ 
+JMS ConnectionFactory和Destination对象
+
+
+48.  下面那种服务不是JNDI应用范围。    
+
+Servlet(*)
+ 
+EJB
+ 
+JDBC
+ 
+JMS
+
+49.  SessionBean（Stateless Session Bean） 的生命周期是由（）决定的    
+
+容器(*)
+ 
+会话
+ 
+应用
+ 
+数据库的连接状态
+
+50.  web.xml存在于war包的哪个文件夹中：    
+
+WEB-INF(*)
+ 
+APP-INF
+ 
+WEB-INFlib
+ 
+以上均不对
+ 
+META-INF
+
+ 
+51.  关于thread dump下列说法错误的是（）    
+
+对于原因不明的hang或是响应慢，最根本的方法就是获取thread dump信息
+ 
+weblogic中的thread dump信息无法输出到其他文件，只能打印在.out文件中(*)
+ 
+thread dump信息主要显示的是线程的状态和其执行堆栈
+ 
+对于unix、linux系统获取thread dump，首先用ps找到运行weblogic的java进程的pid，然后执行kill -3 pid
+
+52.  你使用mkdir命令创建一个临时文件夹/tmp/aaa，并将一些文件复制其中。你使用完后要删除/mnt/tmp文件夹及其中的所有文件，应该使用命令    
+
+rmdir /tmp/aaa
+ 
+rmdir -r /tmp/aaa
+ 
+rm -r /tmp/aaa(*)
+ 
+rm /tmp/aaa
+
+ 
+53. 在操作系统中，Wait(s)和Signal(s)操作是一种    
+
+机器指令
+ 
+低级进程通信原语(*)
+ 
+作业控制命令
+ 
+系统调用命令
+
+ 
+54.  关于DTO描述不正确的是    
+
+DTO必须是一个可序列化的Bean
+ 
+DTO是数据传输对象简称
+ 
+用于在不同层间传递数据的一个载体
+ 
+DTO在设计上要包含业务逻辑的方法(*)
+
+55. Pafa的全称是什么    
+
+PingAn Fundation Architecture(*)
+ 
+PingAn Fundation Framework
+ 
+PingAn Application Architecture
+ 
+PingAn Framework Architecture
+
+56. Web的SimpleFormController控制器描述正确的是    
+
+直接继承自BaseCommandController
+ 
+在showForm方法中处理请求
+ 
+只支持POST请求
+ 
+专门针对表单提交类型的请求处理(*)
+
+57. 下面哪个不是pafa提供的控制器    
+
+ParameterizableViewController
+ 
+AbstractWizardFormController
+ 
+VirtualController(*)
+ 
+MultiActionController
+
+ 
+58. 关于Pafa Web层数据绑定的描述正确的是    
+
+pafaWeb层不提供数据绑定的功能
+ 
+不必依赖<lwc:bind>标签
+ 
+被绑定对象不必一定符合JavaBean的规范
+ 
+页面数据命名必须和对象属性保持一致(*)
+
+59.  关于AbstractAction描述不正确的是    
+
+其业务方法名称是 perform( request:ServiceRequest) :ServiceResponse
+ 
+perform方法抛的是BusinessServiceException
+ 
+ServiceResponse类是可序列化的，具体数据通过一个Map对象返回
+ 
+perform方法可以返回null(*)
+
+60.  Pafa错误日志（Error Logger）通过什么文件来配置？    
+
+devlog.properties(*)
+ 
+devlog.ini
+ 
+core-context.xml
+ 
+log4j.properties
+
+ 
+ 多选题 
+ 
+61.  数字证书的密钥有哪几种保存方式    
+
+保存到usb key(*)
+ 
+保存到加密机(*)
+ 
+保存到IE密钥存储区(*)
+ 
+保存到智能卡(*)
+
+ 
+62. TCP所提供服务的主要特点有哪些？    
+
+以字节为单位传输字节序列(*)
+ 
+端到端的通信(*)
+ 
+面向连接的传输(*)
+ 
+高可靠性，确保传输数据的正确性(*)
+
+63.  SSL协议提供的服务主要有    
+ 
+认证用户和服务器，确保数据发送到正确的客户机和服务器(*)
+ 
+压缩数据降低网络传输的数据量
+ 
+维护数据的完整性，确保数据在传输过程中不被改变(*)
+ 
+加密数据以防止数据中途被窃取(*)
+
+64.  下列函数中函数值不为字符型的是    
+ 
+DATE()(*)
+ 
+TIME()
+ 
+YEAR()(*)
+ 
+DATETIME()(*)
+
+ 
+65.  关系数据库中，典型的实体关系模型有哪几个要素    
+ 
+实体(*)
+ 
+属性(*)
+ 
+索引
+ 
+关系(*)
+
+ 
+66.  基于组件设计的系统特征包括    
+
+抽象(*)
+ 
+封装(*)
+ 
+内聚(*)
+ 
+耦合(*)
+
+67.  需求规格说明书需要包含的内容有    
+ 
+功能性需求(*)
+ 
+安全性需求(*)
+ 
+性能需求(*)
+ 
+资源需求
+
+ 
+68.  下面哪些关于HTML的描述是正确的    
+ 
+HTML中指定页面编码的关键词是charset(*)
+ 
+HTML是一种自描述的语言
+ 
+div和table都可以用来做页面布局(*)
+ 
+html代码必须按照规范才能够在浏览器中显示
+
+69.  java中overload与overwrite的区别    
+
+overwrite 完全新的方法，参数和原方法不同。
+ 
+overload 覆盖继承到的那个方法，那个方法仍然没有放弃。(*)
+ 
+overload 完全新的方法，参数和原方法不同。(*)
+ 
+overwrite 重写继承到的那个方法的代码，原方法被放弃。(*)
+
+70.  关于JSP和SERVLET的描述正确的是：  
+
+JSP技术构建在SERVLET上，它是支持HTML和XML页面制作的SERVLET技术的扩展(*)
+ 
+JSP页面只能在接受请求时动态编译成SERVLET
+ 
+JSP能够访问Java API，具备SERVLET的全部优点(*)
+ 
+JSP页面支持嵌入javascript内容(*)
+       	
+ 
+71.  下面哪些类可以被继承?    
+ 
+java.lang.Thread(*)
+ 
+java.lang.ClassLoader(*)
+ 
+java.lang.Class
+ 
+java.lang.String
+ 
+java.lang.Math
+
+72.  关于readLine()方法，以下说法正确的是：    
+ 
+readLine()每次读取一行数据(*)
+ 
+该方法抛出IOException异常，调用该方法应该将它放到try块中(*)
+ 
+如果读到文件的末尾,该方法返回的结果为null(*)
+ 
+BufferedReader类的对象可以调用该方法(*)
+
+ 
+73.  The ThreadGroup class instance()    
+ 
+Allows threads to be manipulated as group(*)
+ 
+Provides support for ThreadDeath listeners
+ 
+Must contain threads of the same type
+ 
+May contain other ThreadGroups(*)
+
+74.  关于synchronized和java.util.concurrent.locks.Lock描述正确的是    
+ 
+Lock能完成synchronized所实现的所有功能(*)
+ 
+Lock有比synchronized更好的性能(*)
+ 
+Lock要求程序员手动释放锁，synchronized会自动释放锁(*)
+ 
+Lock拥有更精确的线程语义(*)
+
+75.  下面哪个语句能够正确地创建一个InputStreamReader的实例？    
+
+new InputStreamReader(new FileInputStream("data"))(*)
+ 
+new InputStreamReader(new FileReader("data"))
+ 
+new InputStreamReader(new BufferedReader("data"))
+ 
+new InputStreamReader("data")
+ 
+new InputStreamReader(System.in)(*)
+
+ 
+76.  下面哪项是 EJB事务属性?：（）    
+
+Supports(*)
+ 
+Required(*)
+ 
+NotSupported(*)
+ 
+Should
+
+ 
+77.  下列关于在weblogic中设置超时时间说法正确的是（）    
+
+ 
+web.xml中的<session-timeout>元素可以设置超时时间，单位为分钟(*)
+ 
+weblogic.xml的<session-descriptor>元素的TimeoutSecs属性可设置超时时间，单位为秒(*)
+ 
+web.xml中的<session-timeout>元素若设置为-2,则表示session永不过期
+ 
+web.xml中的<session-timeout>元素可以设置超时时间，单位为秒
+
+ 
+78.  WebLogic Server Hang产生的原因一般为（）    
+
+系统内存不足(*)
+ 
+系统cpu忙(*)
+ 
+线程死锁(*)
+ 
+系统文件描述符数目不足(*)
+
+79.  下面Pafa日志分类有哪几种？    
+ 
+错误日志（Error Logger）(*)
+ 
+跟踪日志（Trace Logger）(*)
+ 
+调试日志（DevLog）(*)
+ 
+审计日志（Audit Logger）(*)
+
+80.  PAFAWeb层主要包括以下哪几个组件？    
+
+分发器（DispatchServlet）(*)
+ 
+控制器（Controller）(*)
+ 
+数据导航（navigater）
+ 
+网页视图（View）(*)
+
+
+审核以下答案及问题反馈。 
+  
+ 判断题 
+ 
+81.  	规则引擎平台支持历史规则的实时切换和回滚    
+ 
+对(*)
+ 
+错
+
+82.  	SNTP就是我们常用的电子邮件协议    
+
+对
+ 
+错(*)
+
+ 
+83.  	UDP相比TCP是一种更加可靠的网络传输协议    
+
+对
+ 
+错(*)
+
+ 
+84.  	sequence必须指定为循环模式（cycle），否则有可能超过最大值而造成问题    
+
+对(*)
+ 
+错
+
+ 
+85.  	SYNONYM是指向其它数据库对象的数据库指针    
+
+对(*)
+ 
+错
+       	
+
+86.  	UML语言中的《活动图》与《状态图》没有本质区别    
+
+对
+ 
+错(*)
+
+87.  	一个用例包包含用例、角色，可能包含其他用例包    
+
+对(*)
+ 
+错
+
+ 
+88.  	在java中GC的含义是垃圾收集器    
+
+对(*)
+ 
+错
+
+ 
+89.  在java中进行字符串合并时，使用StringBuffer的效率与使用String相同    
+
+对
+ 
+错(*)
+
+ 
+90.  <session-timeout>30</session-timeout>,30的单位是秒。    
+
+对
+ 
+错(*)
+
+ 
+91.  java对象初始化后为null    
+ 
+对(*)
+ 
+错
+
+ 
+92.  JSP的内置对象out是javax.jsp.JspWriter的一个实例，并提供了几个方法使你能用于向浏览器回送输出结果。    
+
+对(*)
+ 
+错
+
+93.  Java 程序里创建新的类对象使用关键字new，回收无用的类对象使用关键字free。    
+
+对
+ 
+错(*)
+
+94.  当一个线程进入一个对象的一个synchronized方法后，其它线程可进入此对象的其它synchronized方法    
+
+对
+ 
+错(*)
+
+ 
+95.  spring是一个集成了许多第三方框架的大杂烩，其核心技术是IOC和SOA    
+
+对
+ 
+错(*)
+
+96.  JMS 支持两种消息通信模型：点到点（point-to-point）（PTP）模型和发布订阅（PubSub）模型    
+
+对(*)
+ 
+错
+
+97.  考虑到成本，后续一些部署在weblogic的EJB会转移到tomcat    
+
+对
+ 
+错(*)
+
+98.  在创建域时，weblogic会将管理员用户名、密码加密存放在boot.properties文件中    
+
+对(*)
+ 
+错
+
+99.  Bo设计规范规定：Bo中不需要处理任何的事务，也不能被远程访问，其实现是POJO实现，数据持久化通过调用DAO来实现    
+
+对(*)
+ 
+错
+
+100.  pafa体系架构分为表示层、业务层和集成层    
+
+对(*)
+ 
+错
+	
+
+
+2.  对于实时交易，BIS系统对于一次连接请求最长的维持时间为    
+ 
+30秒
+ 
+40秒(*)
+ 
+50秒
+ 
+1分钟
+       
+12.  假设您需要修改STUDENTS表，在STUDENT_ID列上增加一个主键，该表当前不包含数据。下面哪个语句适合于完成此任务？    
+
+ALTER TABLE students ADD PRIMARY KEY student_id;
+ 
+ALTER TABLE student ADD CONSTRAINT PRIMARY KEY (student_id);
+ 
+ALTER TABLE students ADD CONSTRAINT stud_id_pk PRIMARY KEY (student_id);(*)
+ 
+ALTER TABLE students ADD CONSTRAINT stud_id_pk PRIMARY KEY student_id;
+ 
+ALTER TABLE students MODIFY CONSTRAINT stud_id_pk PRIMARY KEY (student_id);
+       
+18.  在UML提供的图中，（  ）用于按时间顺序描述对象间的交互。    
+
+网络图
+ 
+状态图
+ 
+序列图
+ 
+协作图(*)
+      
+36.  <jsp:forward> 和HttpServletResponse.sendRedirect()之间的主要区别在于    
+
+forward 执行在客户端而sendRedirect() 执行在服务器端
+ 
+forward 执行在服务器端而sendRedirect() 执行在客户端(*)
+ 
+以上都不对
+ 
+两个方法是一样的      
+ 
+37.  FileInputStream构造函数的有效参数是    
+
+无参数
+ 
+InputStream对象(*)
+ 
+以上所有对象
+ 
+File对象
+     
+41.  Character流与Byte流的区别是    
+ 
+每次读入的字节数不同
+ 
+前者带有缓冲，后者没有
+ 
+二者没有区别，可以互换使用
+ 
+前者是块读写，后者是字节读写(*)
+      
+42.  如果存在事务上下文，方法调用使用当前事务上下文，如果不存在，则不创建新的事务上下文。这种事务属性在EJB中应该配置为：    
+
+Required
+ 
+Supports(*)
+ 
+Never
+ 
+Mandatory
+      
+51.  以下哪一项不是进程和程序的区别？    
+
+程序是一组有序的静态指令。进程是一次程序的执行过程
+ 
+程序只能在前台运行，而进程可以在前台或后台运行(*)
+ 
+程序没有状态，而进程是有状态的
+ 
+程序可以长期保存，进程是暂时的
+      
+59.  按照调用规范关于SAO和DAO组件描述正确的是    
+
+SAO组件最好只访问外部远程系统的Service，但特殊情况下也可以调用其他任何组件
+ 
+DAO只能通过iBatis框架访问数据库数据，不能调用其他组件(*)
+ 
+SAO组件可以访问DAO组件，也可以访问外部远程系统的Service
+ 
+DAO通过iBatis框架访问数据库数据，DAO之间可以允许相互调用
+       
+63.  SMTP服务器回答："250 OK"表示:    
+ 
+SMTP 服务器有能力发送邮件(*)
+ 
+已经准备好，可以接收邮件(*)
+ 
+连接成功释放(*)
+ 
+邮件传送成功(*)
+     
+64.  以下赋值语句，错误的是：    
+ 
+char c1='\"';
+ 
+Char c3='x';(*)
+ 
+char c5=65;
+ 
+char c4='';(*)
+       
+ 
+86.  UML图中带虚线的箭头表示的是两个模型间的关联关系    
+
+对
+ 
+错(*)
+     	
+
+
+审核以下答案及问题反馈。 
+ 
+  单选题 
+ 
+1.  有一个业务系统，有很多条件类似的规则，这种情况下我们可以考虑在规则引擎中用哪种方式实现？    
+
+自然语言规则
+ 
+规则流
+ 
+决策表(*)
+ 
+决策树
+
+2.  同一个客户，在同一个业务系列，不管该客户有多少个不同的产品，在CIF2中逻辑上只会有一个客户号，该客户号是指(   )    
+
+PARTY_NO(*)
+ 
+CLIENT_NO
+ 
+USER_ID
+ 
+CUSTOMER_ID
+
+ 
+3.  关于WORKNET基本法，下列哪一项描述是错误的？    
+
+WORKNET横向扩展的最小粒度是节点
+ 
+WOKRNET可以进行流转历史的查询和统计(*)
+ 
+WORKNET内部的任务创建模型包含同步和异步两种
+ 
+任务在WORKNET中不准无限期积压，必须有终止期限
+
+4.  IP地址的位数为( )位    
+
+32(*)
+ 
+48
+ 
+64
+ 
+128
+
+ 
+5.  下列哪一个选项按照顺序包括了OSI模型的七个层次：（ ）    
+
+物理层 数据链路层 网络层 传输层 会话层 表示层 应用层(*)
+ 
+物理层 数据链路层 会话层 网络层 传输层 表示层 应用层
+ 
+物理层 数据链路层 传输层 网络层 会话层 表示层 应用层
+ 
+网络层 传输层 物理层 数据链路层 会话层 表示层 应用层
+
+ 
+6.  关于HTTP与HTTPS以下说法错误的是（    ）    
+
+http和https使用的都是80端口(*)
+ 
+http中的所有信息都是明文传输的
+ 
+http的连接很简单,是无状态的
+ 
+HTTPS协议是由SSL+HTTP协议构建的可进行加密传输、身份认证的网络协议 要比http协议安全
+
+7.  TCP协议在每次建立或拆除连接时，都要在收发双方之间交换_________ 报文。    
+
+一个
+ 
+四个
+ 
+三个(*)
+ 
+两个
+
+8.  网络操作系统和分布式操作系统的主要区别是（）    
+
+是否连接多台计算机
+ 
+各台计算机有没有主次之分(*)
+ 
+计算机之间能否通信
+ 
+网上资源能否共享
+
+9.  下面关于数据库系统基于日志的恢复的叙述中，哪一个是正确的    
+
+利用更新日志记录中的改前值可以进行UNDO，利用更新日志记录中的改前值可以进行REDO
+ 
+利用更新日志记录中的改前值可以进行UNDO，利用更新日志记录中的改后值可以进行REDO(*)
+ 
+利用更新日志记录中的改后值可以进行UNDO，利用更新日志记录中的改后值可以进行REDO
+ 
+利用更新日志记录中的改后值可以进行UNDO，利用更新日志记录中的改前值可以进行REDO
+
+10.  下面列出的条目中，哪些是数据仓库的基本特征______。 
+Ⅰ.数据仓库是面向主题的 
+Ⅱ.数据仓库的数据是集成的  
+Ⅲ.数据仓库的数据是相对稳定的 
+Ⅳ.数据仓库的数据是反映历史变化的    
+
+Ⅰ、Ⅱ和Ⅲ
+ 
+Ⅰ、Ⅱ和Ⅳ
+ 
+Ⅱ、Ⅲ和Ⅳ
+ 
+都是(*)
+       	
+
+11.  	在E-R图中，用来表示实体联系的图形是    
+
+椭圆图
+ 
+矩形
+ 
+三角形
+ 
+菱形(*)
+
+ 
+12.  数据库中只存放视图的?    
+
+操作
+ 
+对应的数据
+ 
+定义(*)
+ 
+限制
+
+ 
+13.  在数据库设计中，用E-R图来描述信息结构但不涉及信息在计算机中的表示，它是数据库设计的()阶段    
+
+需求分析
+ 
+概念设计
+ 
+物理设计
+ 
+逻辑设计(*)
+
+14.  下面哪个语句用于打开一个已经存在的约束？    
+
+ALTER TABLE table_name ENABLE constraint_name;
+ 
+ALTER TABLE table_name STATUS = ENABLE CONSTRAINT constraint _ name;
+ 
+ALTER TABLE table_name STATUS = ENABLE CONSTRAINT constraint _ name;
+ 
+ALTER TABLE table_name ENABLE CONSTRAINT constraint _ name;(*)
+ 
+ALTER TABLE table_name TURN ON CONSTRAINT constraint _ name;
+ 
+ALTER TABLE table_name TURN ON CONSTRAINT constraint _ name;
+
+ 
+15.  在视图上不能完成的操作是    
+
+更新视图
+ 
+查询
+ 
+在视图上定义新的基本表(*)
+ 
+在视图上定义新视图
+
+ 
+16.  对于需求变化频繁的项目，项目团队是小型紧密的，且要求文档编制趋轻，下面那一种软件方法学比较适合？    
+
+UP
+ 
+SunTone
+ 
+RUP
+ 
+XP(*)
+
+17.  在UML提供的图中，（  ）用于按时间顺序描述对象间的交互。    
+
+网络图
+ 
+状态图
+ 
+序列图
+ 
+协作图(*)
+
+18.  下列描述中正确的是（）    
+
+软件工程只是解决软件项目的管理问题
+ 
+软件工程的主要思想是强调在软件开发过程中需要应用工程化的原则。(*)
+ 
+软件工程主要解决软件产品的生产率问题。
+ 
+软件工程只是解决软件开发中的技术问题。
+
+19.  项目中的技术风险是通常是通过（）方法来缓解的    
+
+技术文档
+ 
+单元测试
+ 
+代码复审
+ 
+架构原型验证(*)
+
+20.  下面有关系统并发访问数估算数据那个最有效：    
+
+平均每秒用户请求数50
+ 
+高峰时段平均每秒请求数80(*)
+ 
+同时在线用户数100
+ 
+高峰时段日处理业务量100000
+
+
+21.  软件设计的主要任务是设计软件的结构、模块和过程，
+其中软件结构设计的主要任务是要确定    
+
+模块间的操作细节
+ 
+模块间的相似性
+ 
+模块的具体功能
+ 
+模块间的组成关系(*)
+
+22.  关于sleep() 和 wait() 的区别描述错误的是    
+
+sleep是线程类（Thread）的方法
+ 
+wait是Object类的方法
+ 
+sleep会释放对象锁(*)
+ 
+对此对象调用wait方法导致本线程放弃对象锁
+
+23.  以下哪些不是javascript的全局函数（）    
+
+escape
+ 
+parseFloat
+ 
+setTimeout(*)
+ 
+eval
+
+24.  字符类型中有一类特殊的数据叫转义字符，下面那个是换行字符。    
+
+\r
+ 
+\t
+ 
+\n(*)
+ 
+\b
+       	
+
+25.  假设A类有如下定义，设a是A类的一个实例，下列哪些语句调用是错误的。
+class A {
+int i;
+static String s;
+    void method1() {   }
+    static void method2()  {   }
+}    
+
+
+ 
+System.out.println(a.i)；
+ 
+a.method1();
+ 
+A.method2()
+ 
+A.method1();(*)
+
+26.  欲构造ArrayList类的一个实例，此类继承了List接口，下列哪个方法是正确的 ？    
+
+ArrayList myList=new Object（）;
+ 
+ArrayList myList=new List();
+ 
+List myList=new ArrayList（）；(*)
+ 
+List myList=new List（）;
+
+27.  EJB不支持以下哪种服务。    
+
+Servlet(*)
+ 
+JDBC
+ 
+JTA
+ 
+JMS
+
+28.  以下哪行代码会进行对象垃圾回收
+1.public class MyClass{   
+2.    public StringBuffer aMethod(){   
+3.        StringBuffer sf = new 4.StringBuffer("Hello");   
+5.        StringBuffer[] sf_arr = new    StringBuffer[1];   
+6.        sf_arr[0] = sf;   
+7.        sf = null;   
+8.        sf_arr[0] = null;   
+9.        return sf;   
+    }   
+}    
+
+第3行
+ 
+第7行(*)
+ 
+第5行
+ 
+第8行
+
+29.  下面的哪种数据类型可以保存-32768~32767之间的数字    
+
+long
+ 
+byte
+ 
+short
+ 
+int(*)
+
+30.  在实现DAO设计模式时，下面哪种模式经常被采用：    
+
+Factory模式(*)
+ 
+Proxy模式
+ 
+Prototype模式
+ 
+Observer模式
+       	
+ 
+31.  下列关于注释语句的描述中，正确的一项是    
+
+以//开始的是多行注释语句
+ 
+以/*开始，*/结束的是单行注释
+ 
+以/**开始，*/结束的是单行注释语句
+ 
+以/**开始，*/结束的是可以用于生成帮助文档的注释语句(*)
+
+32.  Java语言有许多优点和特点，下列选项中，()反映了Java程序并行机制的特点。    
+
+安全性
+ 
+跨平台
+ 
+多线程(*)
+ 
+可移植
+
+ 
+33.  在Java中，关于final关键字的说法正确的是    
+
+如果修饰变量，则一旦赋了值，就等同一个常量
+ 
+如果修饰类，则该类只能被一个子类继承
+ 
+如果修饰方法，则该方法所在的类不能被继承(*)
+ 
+如果修饰方法，则该方法能在子类中被覆盖
+
+34.  FileInputStream构造函数的有效参数是    
+
+无参数
+ 
+File对象
+ 
+InputStream对象(*)
+ 
+以上所有对象
+
+35.  定义字符串：String str="abcdefg";则str.substring(2,5).indexOf('d')的结果是：    
+
+1(*)
+ 
+3
+ 
+4
+ 
+2
+       	
+
+36.  以下循环执行（）次
+public class Test{
+   public static void main(String[] args){
+       int  x=-10,k=0;
+       while(++x<0){
+             k++;
+        }
+System.out.println(k);
+}
+}    
+
+无限
+ 
+9(*)
+ 
+10
+ 
+11
+
+37.  以下语句输出的结果是：
+String str="1234";
+int x=4,y=5;
+str=str+(x+y);
+System.out.println(str);    
+
+12349(*)
+ 
+123445
+ 
+123+4+5
+ 
+会产生编译错误
+
+38.  如下代码在Servlet1.java中.
+import javax.servlet.*;
+import javax.servlet.http.*;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class Servlet extends HttpServlet{
+
+   public void init() throws ServletException{}
+   public void service(HttpServletRequest request,
+
+HttpServletResponse response)throws ServletException,
+
+IOException{
+
+PrintWriter out=response.getWriter();
+Out.println(“hello!”);
+
+}
+
+}
+
+假如编译Servlet要具备的环境都已经建立好,现在用完全正确的命令编译该文件,对于以下陈述正确的是   
+
+编译该文件时会提示缺少doGet()或者doPost方法,编译不能够成功通过
+ 
+编译后,把Servlet1.class放在正确的位置,在浏览器中查看该Servlet1,却看不到任何输出文字
+ 
+编译后,把Servlet1.class放在正确的位置,在浏览器中查看该Servlet1,会看到输出文字:”hello!”(*)
+ 
+编译后,把Servlet1.class放在正确的位置,在浏览器中查看该Servlet1,却看到产生运行时错误的出错信息.
+
+39.  Character流与Byte流的区别是    
+
+每次读入的字节数不同
+ 
+前者带有缓冲，后者没有
+ 
+二者没有区别，可以互换使用
+ 
+前者是块读写，后者是字节读写(*)
+
+40.  下列关于栈的叙述正确的是    
+
+栈是非线性结构
+ 
+栈具有先进先出的特征
+ 
+栈是一种树状结构
+ 
+栈具有后进先出的特征(*)
+
+ 
+41.  有关线程的哪些叙述是对的。    
+
+一旦一个线程被创建，它就立即开始运行。
+ 
+使用start()方法可以使一个线程成为可运行的，但是它不一定立即开始运行。
+ 
+一个线程可能因为不同的原因停止（cease）并进入就绪状态。(*)
+ 
+当一个线程因为抢先机制而停止运行，它被放在可运行队列的前面。
+
+42.  J2EE的三层结构包括表示层、中间层、（）。    
+
+服务层
+ 
+保存层
+ 
+中间层
+ 
+数据层(*)
+
+43.  下面哪一个不是造成OOM的原因（    ）    
+
+JVM启动时分配的堆空间不足
+ 
+程序存在内存泄漏
+ 
+CPU或者线程资源不足(*)
+ 
+代码不良, 产生的临时对象太多
+
+44.  EJB组件的包文件的扩展名是：    
+
+.jar(*)
+ 
+.rar
+ 
+.war
+ 
+.ear
+
+45.  下面那种服务不是JNDI应用范围。    
+
+Servlet(*)
+ 
+EJB
+ 
+JMS
+ 
+JDBC
+
+46.  在XML文档中使用CSS样式单正确的方式为：    
+
+引用式和嵌入式(*)
+ 
+交叉引用
+ 
+内部和外部
+ 
+包含式
+
+47.  以下哪些不是javascript的全局函数（）    
+
+escape
+ 
+parseFloat
+ 
+setTimeout(*)
+ 
+eval
+
+48.  Weblogic 启动Admin Server后默认的控制台路径是：    
+
+/manage
+ 
+/index
+ 
+/console(*)
+ 
+/manager
+
+49.  下面哪项不是web容器的部署描述符的作用。    
+
+定义MIME参数
+ 
+定义欢迎和错误页面
+ 
+定义远程接口(*)
+ 
+映射到Servlet/JSP的请求
+ 
+初始化参数
+ 
+安全授权和认证
+ 
+50.  文件系统与（）密切相关，它们共同为用户使用文件提供方便    
+
+处理器管理
+ 
+设备管理
+ 
+存储管理(*)
+ 
+作业管理
+
+ 
+51.  关于进程的叙述哪一项是不正确的    
+ 
+一个进程独占处理器时其执行结果只取决于进程本身
+ 
+一个进程的工作没有完成之前，另一进程就可开始工作，则称这些进程具有并发性
+ 
+进程并发执行时其执行结果与进程执行的相对速度有关
+ 
+可同时执行的进程是指若干进程同时占用处理器(*)
+
+52.  以下哪一项不是进程和程序的区别？    
+
+程序是一组有序的静态指令。进程是一次程序的执行过程
+ 
+程序可以长期保存，进程是暂时的
+ 
+程序只能在前台运行，而进程可以在前台或后台运行(*)
+ 
+程序没有状态，而进程是有状态的
+
+ 
+53.  文件的存取方式是由文件的性质和用户使用文件的情况而确定的，一般有两种存取方式，它们是    
+
+直接存取和间接存取
+ 
+顺序存取和随机存取(*)
+ 
+顺序存取和链接存取
+ 
+只读存取和读写存取
+
+ 
+54.  下列关于PAFA描述不正确的是    
+
+PAFA的MVC框架实际就是SPRING的MVC
+ 
+PAFA支持AOP(*)
+ 
+PAFA AC实际上就是一个EJB
+ 
+PAFA的MVC中，DispatchServlet是前端的控制器
+
+55.  下面哪个不是pafa的Bean属性    
+
+id
+ 
+finish-method(*)
+ 
+init-method
+ 
+parent
+
+ 
+56.  下面哪个不是pafa提供的控制器    
+
+ParameterizableViewController
+ 
+AbstractWizardFormController
+ 
+VirtualController(*)
+ 
+MultiActionController
+
+57.  关于Pafa的数据校验描述不正确的是    
+
+PAFA提供三个层次的数据校验，涉及客户端（浏览器）、web层和业务层
+ 
+Web层通过实现接口Validator检验提交的数据格式是否正确，字段是否为空等。
+ 
+客户端主要JavaScript用于简单校验，比如必需的字段是否填写，字段长度是否合适等，它只是一个辅助检验手段。
+ 
+业务层实现接口BusinessValidator对数据进行全面的校验，包括字段是否为空、格式是否正确，有时甚至需要通过数据库查询关联数据来校验(*)
+
+58.  关于Pafa Web层数据绑定的描述正确的是    
+
+pafaWeb层不提供数据绑定的功能
+ 
+页面数据命名必须和对象属性保持一致(*)
+ 
+不必依赖<lwc:bind>标签
+ 
+被绑定对象不必一定符合JavaBean的规范
+
+59.  关于pafa组件调用规范下面描述不正确的是    
+
+web层只能够通过ApplicationController来访问后台系统，web层不能直接调用DAO，外部服务等
+ 
+Service可以调用其他Service，BO，DAO,SAO对象，但Service不能够调用Action组件
+ 
+Action组件可以调用其他Action，Service，BO，DAO，SAO对象
+ 
+Bo组件可以调用其他BO，DAO，SAO和Action对象(*)
+
+60.  Pafa的web-context.xml文件配置什么信息    
+
+配置URL和Controller的映射关系(*)
+ 
+配置JSP页面布局
+ 
+配置URL和Controller的映射关系及配置Web提示和错误消息
+ 
+配置URL和Controller的映射关系及配置JSP页面布局
+       	
+ 多选题 
+ 
+61.  下列哪些是UM的实现功能？    
+
+登陆(*)
+ 
+权限控制(*)
+ 
+口令找回
+ 
+口令重置(*)
+
+ 
+62.  下列支持SSL的中间件/硬件有：    
+
+F5(*)
+ 
+WEBLOGIC(*)
+ 
+DATASTAGE
+ 
+TOMCAT(*)
+
+ 
+63.  HTTP/1.1相较于 HTTP/1.0 协议的区别主要体现在：    
+
+带宽优化及网络连接的使用(*)
+ 
+安全性及完整性(*)
+ 
+缓存处理(*)
+ 
+消息在网络中的发送(*)
+
+ 
+64.  在ORACLE中，以下语句出错，哪些改动能够正确执行：
+SELECT deptno, max(sal)
+FROM emp
+GROUP BY deptno
+WHERE max(sal)>2500;    
+
+将WHERE和GROUP BY 语句顺序调换一下
+ 
+将WHERE max(sal)>2500语句改成HAVING max(sal)>2500(*)
+ 
+将WHERE max(sal)>2500语句改成WHERE sal>2500
+ 
+将WHERE max(sal)>2500语句改成HAVING sal>2500
+
+ 
+65.  在ORACLE的排序SQL，下面哪些写法是正确的。    
+
+Select 'Name: '|| ename ,sal from emp Where deptno=30 Order by 2,1(*)
+ 
+Select * from emp where deptno=30 order by ename(*)
+ 
+Select distinct ename,sal from emp where deptno=30 order by deptno
+ 
+Select ename "Employee",sal "salary" from emp Order by "salary" desc , "Employee"，deptno(*)
+       	
+ 	
+ 
+66.  SunTone方法论中，精化阶段的主要目标是    
+
+更新项目需求(*)
+ 
+消除风险，对于不能消除的确定减缓方案(*)
+ 
+细化架构文档(*)
+ 
+创建架构原型(*)
+       	
+ 	
+ 
+67.  上下文关系图(context diagram)的作用是    
+
+定义系统的上下文和范围(*)
+ 
+概括与系统之间相互影响的重要的外部系统和人(*)
+ 
+定义业务规则
+ 
+外部系统和人与系统之间交互的方式(*)
+       	
+ 	
+ 
+68.  以下属于DHTML的组成部分是    
+
+HTML4.0(*)
+ 
+CSS技术(*)
+ 
+DOM技术(*)
+ 
+XML技术
+ 
+脚本语言(*)
+
+69.  下面哪些关于HTML的描述是正确的    
+
+HTML中指定页面编码的关键词是charset(*)
+ 
+HTML是一种自描述的语言
+ 
+html代码必须按照规范才能够在浏览器中显示
+ 
+div和table都可以用来做页面布局(*)
+
+70.  下面哪些情况适合考虑使用有状态会话bean。    
+
+在方法调用期间，会话bean需要维护成员变量的数据(*)
+ 
+实例化会话bean的时候，必须初始化会话bean的状态(*)
+ 
+会话bean需要跨越多个方法调用，维护客户端的信息(*)
+ 
+会话bean提供的服务不具体针对某种客户端
+       	
+
+71.  下面哪些是合法的标识符（）    
+
+$persons(*)
+ 
+*point
+ 
+const
+ 
+_endline(*)
+       	
+
+72.  Which of the following statements are true about java.util.IdentityHashMap?    
+
+It implements Map interface(*)
+ 
+It is synchronized
+ 
+In an IdentityHashMap, two keys k1 and k2 are considered equal if and only if k1.equals(k2) OR if both k1 and k2 are null
+ 
+It violates general contract of the interface Map(*)
+ 
+In an IdentityHashMap, two keys k1 and k2 are considered equal if and only if (k1==k2)(*)
+ 
+It keeps its keys in a sorted order
+
+73.  关于synchronized和java.util.concurrent.locks.Lock描述正确的是    
+
+Lock能完成synchronized所实现的所有功能(*)
+ 
+Lock有比synchronized更好的性能(*)
+ 
+Lock要求程序员手动释放锁，synchronized会自动释放锁(*)
+ 
+Lock拥有更精确的线程语义(*)
+
+74.  下面哪几点是Hibernate的优势？    
+
+对JDBC访问数据库的代码做了封装，大大简化了数据访问层繁琐的重复性代码(*)
+ 
+Hibernate是一个基于JDBC的主流持久化框架，是一个优秀的ORM实现。他很大程度的简化DAO层的编码工作(*)
+ 
+hibernate的性能非常好，因为它是个轻量级框架。映射的灵活性很出色。它支持各种关系数据库，从一对一到多对多的各种复杂关系(*)
+ 
+hibernate使用Java反射机制，而不是字节码增强程序来实现透明性(*)
+
+75.  log4j中输入日志有哪些级别设置    
+
+INFO(*)
+ 
+DEBUG(*)
+ 
+FATAL(*)
+ 
+WARN(*)
+
+ 
+76.  下列关于在weblogic中设置超时时间说法正确的是（）    
+
+web.xml中的<session-timeout>元素可以设置超时时间，单位为分钟(*)
+ 
+web.xml中的<session-timeout>元素若设置为-2,则表示session永不过期
+ 
+web.xml中的<session-timeout>元素可以设置超时时间，单位为秒
+ 
+weblogic.xml的<session-descriptor>元素的TimeoutSecs属性可设置超时时间，单位为秒(*)
+
+77.  WebLogic Server Hang产生的原因一般为（）    
+
+系统内存不足(*)
+ 
+系统文件描述符数目不足(*)
+ 
+系统cpu忙(*)
+ 
+线程死锁(*)
+
+78.  可能与正在运行的进程无关的中断事件有（）等    
+
+硬件故障(*)
+ 
+程序性
+ 
+外部(*)
+ 
+输入/输出(*)
+ 
+访管
+
+79.  下面哪些条文属于pafa的package命名规范？    
+
+com.paic.系统名.[子系统名].[模块名]. PAFA固定package(*)
+ 
+字母可大写也可以小写
+ 
+子系统名称首字母大写，其余小写
+ 
+所有字母一律小写(*)
+
+80.  下面哪些属于pafa的Bean属性    
+
+depends-on(*)
+ 
+singleton(*)
+ 
+parent(*)
+ 
+lazy-init(*)
+       	
+ 判断题 
+ 
+81.  规则引擎平台支持历史规则的实时切换和回滚    
+
+对(*)
+ 
+错
+
+82.  UDP相比TCP是一种更加可靠的网络传输协议    
+
+对
+ 
+错(*)
+
+83.  我们平时用的"ping"命令的原理就是向对方主机发送TCP数据包,如果数据包是否到达的消息及时反馈回来，那么网络就是通的。    
+
+对
+ 
+错(*)
+
+84.  db_block_size是数据的最小存储单位，在数据库创建之初设定，后期可以根据需要再修改    
+
+对
+ 
+错(*)
+
+85.  选择索引字段，首先考虑查询数据区分度是否高，如果区分度不高则适合创建索引    
+
+对
+ 
+错(*)
+
+86.  UML语言中的《活动图》与《状态图》没有本质区别    
+
+对
+ 
+错(*)
+
+87.  UML图中带虚线的箭头表示的是两个模型间的关联关系    
+
+对
+ 
+错(*)
+
+88.  <session-timeout>30</session-timeout>,30的单位是秒。    
+
+对
+ 
+错(*)
+
+89.  在java中“&&”进行与运算，“&”进行按位运算    
+
+对(*)
+ 
+错
+
+90.  forward 执行在客户端而sendRedirect() 执行在服务器端。    
+
+对
+ 
+错(*)
+
+ 
+91.  在Java中对象可以赋值，只要使用赋值号（等号）即可，相当于生成了一个属性与赋值对象相同的新对象    
+
+对
+ 
+错(*)
+
+92.  classloader是分层次的，它只能加载比它层次高的类及它自身的类，同层次的类及比它层次低的类都不能加载    
+
+对(*)
+ 
+错
+
+ 
+93.  在java代码中输入字符时，向操作系统传递的数据经过了中间的编码环节    
+
+对(*)
+ 
+错
+       	
+
+94.  没有implements Serializable，就一定不能通过rmi(包括ejb)提供远程调用    
+ 
+对(*)
+ 
+错
+
+95.  spring是一个集成了许多第三方框架的大杂烩，其核心技术是IOC和SOA    
+
+对
+ 
+错(*)
+
+96. Hashtable是同步的，而HashMap不是同步的。所以不要求同步的时候，用HashMap的效率较高。    
+
+对(*)
+ 
+错
+
+97.  我们打包的时候需要将weblogic.jar也打在应用包中    
+
+对
+ 
+错(*)
+
+98.  weblogic中发布的ejb文件一定包含ejb-jar.xml    
+
+对(*)
+ 
+错
+
+99.  在pafaWeb层AbstractController的handleRequestInternal方法中其返回ModelAndView对象不允许为null    
+
+对
+ 
+错(*)
+
+100.  PafaSAO是PAFA提供的用于访问外部系统的组件，它用于封装对外部系统的调用    
+
+对(*)
+ 
+错
+      	
+
+单选题
+
+1.   在TCP/IP协议栈中，如果出现阻塞情况，下列哪种情况最有可能发生？
+连接错误
+释放缓存
+丢包(*) 
+包错误
+
+
+2.  下面有关表和视图叙述中错误的是
+A. 视图的数据可以来自多个表
+B. 对视图的数据修改最终传递到基表(*)
+C. 基表不存在，不能创建视图
+D. 删除视图不会影响基表的数据
+
+
+3.  下列代码编译和执行后的结果是
+public void myMethod(Object o){
+		System.out.println("My Object");
+		
+	}
+	
+	public void myMethod(String s){
+		System.out.println("My String");
+	}
+      public static void main(String[] args) {
+      	       Test t = new Test();		
+		t.myMethod(null);
+	
+	}
+
+}
+
+A. 代码不打印任何东西
+B. 代码打印出"My String"(*)
+C. 代码打印出"My Object"
+D. 代码抛出一个Runtime的异常
+
+
+4.  下面哪项不是EJB事务属性
+A. NotSupported
+B. Never
+C. Mandatory
+D. Request (*)
+
+5. 在MVC框架中，哪两个部分的访问不是双向的。
+A. M和V (*)
+B. V和C
+C. M和C 
+
+6. 下面哪个语句用于打开一个已经存在的约束？    
+A、ALTER TABLE table_name TURN ON CONSTRAINT constraint _ name; 
+B、ALTER TABLE table_name ENABLE constraint_name; 
+C、ALTER TABLE table_name STATUS = ENABLE CONSTRAINT constraint _ name; 
+D、ALTER TABLE table_name ENABLE CONSTRAINT constraint _ name; (*)  
+
+
+7. PL/SQL中不包含的元素为： 
+A、存储过程   
+B、存储函数  
+C、表(*)    
+D、游标 
+ 
+8. 以下语句的作用是：SELECT ename,sal FROM emp WHERE sal<(SELECT min(sal) FROM emp)+1000    
+A、显示工资低于1000元的雇员信息 
+B、将雇员工资小于1000元的工资增加1000后显示 
+C、显示不超过最低工资1000元的雇员信息 (*)
+D、显示超过最低工资1000元的雇员信息  
+
+多选题
+9. 下面哪些测试属于黑盒测试：    (该题为必答题)
+   循环测试 
+  等价类划分(*) 
+  边界值分析(*) 
+  条件判断 
+ 
+划分等价类和边界值分析是黑盒测试中常用的测试方法
+除此之外还有：
+错误推测法，因果图法，判定表，正交试验等方法，具体都是如何设计测试用例的，建议可以查看网上相关一些资料
+
+
+
+
+
+
+
+
+
+
